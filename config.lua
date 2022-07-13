@@ -32,7 +32,7 @@ Config.Doghouses = {
 	{ coords = vector4(360.6, -1618.54, 29.29, 320.18), }, -- Davis
 }
 
-Config.Authorized = { ["police"] = 9, ["sasp"] = 0, ["bcso"] = 9, } -- This is setup as [JOB] = [GRADE]
+Config.Authorized = { ["police"] = 2, ["sasp"] = 2, ["bcso"] = 2, } -- This is setup as [JOB] = [GRADE]
 
 Config.K9Search = {
 	"joint",
