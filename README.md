@@ -1,19 +1,30 @@
-# Police K9 Scripts originally forked from hashisx https://github.com/hashisx/hashx_k9
+# Police K9 Scripts originally forked from hashisx https://github.com/hashisx/hashx_k9 and rereleased from FjamZoo https://github.com/FjamZoo/qb-k9
 
-# Use
+## Credits:
+
+Hashisx - Original creator of hashx_k9 - https://github.com/hashisx/hashx_k9/
+FjamZoo - Maintaining and Forking to qb-k9 - https://github.com/FjamZoo/qb-k9/
+Jimathy666 - Inspiration from jim-mechanic for Dog House Prop - https://jimathy666.tebex.io/
+martinct - German Shepherd Ped Model on LCPDFR - https://www.lcpdfr.com/downloads/gta5mods/character/19996-german-shepherd-malinois-k9-dog/
+
+### How To Use:
+
 Purchase a dog from the location specified in the Config, use Z to follow or attack (Must be pointing a weapon to attack).
 
 Press K to show K9 Commands (Both of these are now keymaps so its a on user basis)
 
-# Searching
+### Config Use
+
+You can place dog houses in areas of your choosing. The current locations are at Davis and MRPD (MRPD is commented out)
+
+- Screenshots Soon -
+
+### Searching
 
  You must be facing your target (vehicle or player) when selecting the Search Action, except for Search Area.
  Sometimes the Search Person will pick up the dog. Best to have the dog behind you.
 
-# K9 Ped
-The k9 ped I use personally from this script is from here https://forum.cfx.re/t/how-to-german-shepherd-malinois-k9-dog-1-0-1/1065040
-
-# You must add this to QB Inventory Server main.lua.
+### You must add this to QB Inventory Server main.lua.
 ```
     local function HasItem(list, item)
 
