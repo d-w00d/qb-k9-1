@@ -21,7 +21,7 @@ Press K to show K9 Commands (Both of these are now keymaps so its a on user basi
 
 ### Config Use
 
-You can place dog houses in areas of your choosing. The current locations are at Davis and MRPD (MRPD is commented out)
+You can place dog houses in areas of your choosing. The current locations are at Gabz Davis and MRPD (MRPD is commented out)
 
 - Screenshots Soon -
 
