@@ -2,7 +2,7 @@ Config = {}
 
 Config.DogModelProps = { 
 	[1] = { -- Number of dogs can be infinite
-		["Header"] = "Ace", -- Menu Header
+		["Header"] = "K=9 Shepherd", -- Menu Header
 		["Text"] = "German Shepherd K-9 Unit",
 		["Dog"] = "a_c_shepherd", -- Dog stats
 		["Colour"] = 0, -- Normally 1-3 -- Dog stats
@@ -10,25 +10,25 @@ Config.DogModelProps = {
 		["Patch"] = 0,
 	},
 	[2] = {
-		["Header"] = "Shasta",
+		["Header"] = "K-9 Husky",
 		["Text"] = "Husky K-9 Unit",
 		["Dog"] = "a_c_husky",
-		["Colour"] = 2,
+		["Colour"] = 0,
 		["Vest"] = 3,
-		["Patch"] = 0
+		["Patch"] = 0,
 	},
 	[3] = { -- Number of dogs can be infinite
-		["Header"] = "Salem", -- Menu Header
-		["Text"] = "German Shepherd K-9 Unit",
-		["Dog"] = "a_c_shepherd", -- Dog stats
-		["Colour"] = 3, -- Normally 1-3 -- Dog stats
+		["Header"] = "K-9 Rottweiler", -- Menu Header
+		["Text"] = " K-9 Unit",
+		["Dog"] = "a_c_chop", -- Dog stats
+		["Colour"] = 0, -- Normally 1-3 -- Dog stats
 		["Vest"] = 4,
 		["Patch"] = 4, -- Dog stats
 	},
 }
 
 Config.Doghouses = {
-	--{ coords = vector4(458.43, -974.49, 25.7, 158.66), }, -- MRPD
+	{ coords = vector4(458.43, -974.49, 25.7, 158.66), }, -- MRPD
 	{ coords = vector4(360.6, -1618.54, 29.29, 320.18), }, -- Davis
 }
 
@@ -112,9 +112,4 @@ Config.K9Search = {
 	"weapon_stickybomb",
 	"weapon_proxmine",
 	"weapon_pipebomb",
-	"weapon_microsmg",
-	"weapon_microsmg",
-	"weapon_microsmg",
-	"weapon_microsmg",
-	"weapon_microsmg",
 };
