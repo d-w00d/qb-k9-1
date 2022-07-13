@@ -13,6 +13,12 @@ Purchase a dog from the location specified in the Config, use Z to follow or att
 
 Press K to show K9 Commands (Both of these are now keymaps so its a on user basis)
 
+### How To Install The K-9 Ped
+
+- Take the german-shepherd file and place it in your [standalone] folder.
+- Restart server
+- Voila!
+
 ### Config Use
 
 You can place dog houses in areas of your choosing. The current locations are at Davis and MRPD (MRPD is commented out)
