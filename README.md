@@ -2,10 +2,10 @@
 
 ## Credits:
 
-Hashisx - Original creator of hashx_k9 - https://github.com/hashisx/hashx_k9/
-FjamZoo - Maintaining and Forking to qb-k9 - https://github.com/FjamZoo/qb-k9/
-Jimathy666 - Inspiration from jim-mechanic for Dog House Prop - https://jimathy666.tebex.io/
-martinct - German Shepherd Ped Model on LCPDFR - https://www.lcpdfr.com/downloads/gta5mods/character/19996-german-shepherd-malinois-k9-dog/
+- Hashisx - Original creator of hashx_k9 - https://github.com/hashisx/hashx_k9/
+-  FjamZoo - Maintaining and Forking to qb-k9 - https://github.com/FjamZoo/qb-k9/
+- Jimathy666 - Inspiration from jim-mechanic for Dog House Prop - https://jimathy666.tebex.io/
+- martinct - German Shepherd Ped Model on LCPDFR - https://www.lcpdfr.com/downloads/gta5mods/character/19996-german-shepherd-malinois-k9-dog/
 
 ### How To Use:
 
