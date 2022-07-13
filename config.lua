@@ -2,7 +2,7 @@ Config = {}
 
 Config.DogModelProps = { 
 	[1] = { -- Number of dogs can be infinite
-		["Header"] = "K=9 Shepherd", -- Menu Header
+		["Header"] = "K-9 Shepherd", -- Menu Header
 		["Text"] = "German Shepherd K-9 Unit",
 		["Dog"] = "a_c_shepherd", -- Dog stats
 		["Colour"] = 0, -- Normally 1-3 -- Dog stats
@@ -24,6 +24,14 @@ Config.DogModelProps = {
 		["Colour"] = 0, -- Normally 1-3 -- Dog stats
 		["Vest"] = 4,
 		["Patch"] = 4, -- Dog stats
+	},
+	[3] = { -- Number of dogs can be infinite
+		["Header"] = "K-9 Sheriff", -- Menu Header
+		["Text"] = " K-9 Unit",
+		["Dog"] = "a_c_shepherd", -- Dog stats
+		["Colour"] = 0, -- Normally 1-3 -- Dog stats
+		["Vest"] = 1,
+		["Patch"] = 1, -- Dog stats
 	},
 }
 
