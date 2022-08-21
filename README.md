@@ -20,7 +20,7 @@ Press K to show K9 Commands (Both of these are now keymaps so its a on user basi
 ### How To Install The K-9 Ped
 
 - Take the german-shepherd file and place it in your [standalone] folder.
-- Restart server
+- Restart and Clear Server Cache
 - Voila!
 
 ### Config Use
