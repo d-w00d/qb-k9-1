@@ -1,8 +1,8 @@
 # Police K9 Scripts originally forked from hashisx https://github.com/hashisx/hashx_k9 and rereleased from FjamZoo https://github.com/FjamZoo/qb-k9
 
-## Support On Ko-fi
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M4DRR9P)
+## Support me on Ko-Fi!
+### - xViperAG (OuroborosRP)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/xviperag)
 
 ## Credits:
 
