@@ -26,7 +26,7 @@ CreateThread(function()
     while not HasModelLoaded(`prop_doghouse_01`) do 
       Citizen.Wait(2) 
     end
-		doghouse[#doghouse+1] = CreateObject(`prop_doghouse_01`,v.coords.x, v.coords.y, v.coords.z-1.2,false,false,false)
+		doghouse[#doghouse+1] = CreateObject(`prop_doghouse_01`,v.coords.x, v.coords.y, v.coords.z-1,false,false,false)
 		SetEntityHeading(doghouse[#doghouse], v.coords.w - 90)
 		FreezeEntityPosition(doghouse[#doghouse], true)
     exports['qb-target']:AddBoxZone("doghouses"..k, v.coords, 1.5, 1.6, { 
