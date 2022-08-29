@@ -1,4 +1,7 @@
-# Police K9 Scripts originally forked from hashisx https://github.com/hashisx/hashx_k9 and rereleased from FjamZoo https://github.com/FjamZoo/qb-k9
+# Police K9 Scripts 
+
+* Originally forked from hashisx https://github.com/hashisx/hashx_k9 
+* Re-released from FjamZoo https://github.com/FjamZoo/qb-k9
 
 ## Support me on Ko-Fi!
 ### - xViperAG
@@ -7,15 +10,17 @@
 ## Credits:
 
 - Hashisx - Original creator of hashx_k9 - https://github.com/hashisx/hashx_k9/
--  FjamZoo - Maintaining and Forking to qb-k9 - https://github.com/FjamZoo/qb-k9/
+- FjamZoo - Maintaining and Forking to qb-k9 - https://github.com/FjamZoo/qb-k9/
 - Jimathy666 - Inspiration from jim-mechanic for Dog House Prop - https://jimathy666.tebex.io/
 - martinct - German Shepherd Ped Model on LCPDFR - https://www.lcpdfr.com/downloads/gta5mods/character/19996-german-shepherd-malinois-k9-dog/
 
 ### How To Use:
 
-Purchase a dog from the location specified in the Config, use Z to follow or attack (Must be pointing a weapon to attack).
+* Request a dog from the doghouses specified in the config
 
-Press K to show K9 Commands (Both of these are now keymaps so its a on user basis)
+* Press Z to follow or attack (Must be pointing a weapon to attack).
+
+* Press K to show K9 Commands (Both of these are now keymaps so its a on user basis)
 
 ### How To Install The K-9 Ped
 
@@ -27,7 +32,7 @@ Press K to show K9 Commands (Both of these are now keymaps so its a on user basi
 
 You can place dog houses in areas of your choosing. The current locations are at Gabz Davis and MRPD (MRPD is commented out)
 
-- Screenshots Soon -
+![image](https://i.imgur.com/FsqhCvS.jpeg)
 
 ### Searching
 
