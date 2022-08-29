@@ -405,7 +405,7 @@ AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
   local player = QBCore.Functions.GetPlayerData()
   PlayerJob = player.job
 
-  if PlayerJob or (PlayerJob.name == "police" or PlayerJob.name == "sasp" or PlayerJob.name == "bcso" or PlayerJob.name == "fib") then
+  if PlayerJob or PlayerJob.name == "police" then
     EnableK9()
   end
 end)
@@ -416,7 +416,7 @@ end)
 
 RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
   PlayerJob = JobInfo
-  if (JobInfo.name == "police" or JobInfo.name == "fib" or JobInfo.name == "bcso" or JobInfo.name == "sasp") then
+  if JobInfo.name == "police" then
     EnableK9()
   end
 end)
