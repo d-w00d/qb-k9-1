@@ -34,6 +34,8 @@ You can place dog houses in areas of your choosing. The current locations are at
 
 ![image](https://i.imgur.com/FsqhCvS.jpeg)
 
+Added Patches for German Shepherd Ped (Please read Config THOROUGHLY!!!)
+
 ### Searching
 
  You must be facing your target (vehicle or player) when selecting the Search Action, except for Search Area.
