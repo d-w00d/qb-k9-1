@@ -3,6 +3,8 @@
 * Originally forked from hashisx https://github.com/hashisx/hashx_k9 
 * Re-released from FjamZoo https://github.com/FjamZoo/qb-k9
 
+## WARNING: Only works on old core!!! Have not tested on new core!!!
+
 ## Support me on Ko-Fi!
 ### - xViperAG
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/xviperag)
