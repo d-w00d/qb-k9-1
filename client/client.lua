@@ -23,7 +23,7 @@ CreateThread(function()
     for k, v in pairs(Config.Doghouses) do
         local propModel = "prop_doghouse_01"
         RequestModel(propModel) while not HasModelLoaded(propModel) do Wait(0) end
-        local prop = CreateObject(propModel, v.coords.x, v.coords.y, v.coords.z - 1.1, false, false, false)
+        local prop = CreateObject(propModel, v.coords.x, v.coords.y, v.coords.z - 1.0, false, false, false)
         SetEntityHeading(prop, v.coords.w - 90)
         FreezeEntityPosition(prop, true)
     end
