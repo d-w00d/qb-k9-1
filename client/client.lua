@@ -19,58 +19,30 @@ local searchhit = {
     anim = "indicate_high"
 }
 
-local doghouse = {}
 CreateThread(function()
-	for k, v in pairs(Config.Doghouses) do
-		RequestModel(`prop_doghouse_01`) 
-    while not HasModelLoaded(`prop_doghouse_01`) do 
-      Citizen.Wait(2) 
+    for k, v in pairs(Config.Doghouses) do
+        local propModel = "prop_doghouse_01"
+        RequestModel(propModel) while not HasModelLoaded(propModel) do Wait(0) end
+        local prop = CreateObject(propModel, v.coords.x, v.coords.y, v.coords.z - 1.1, false, false, false)
+        SetEntityHeading(prop, v.coords.w - 180)
+        FreezeEntityPosition(prop, true)
     end
-		doghouse[#doghouse+1] = CreateObject(`prop_doghouse_01`,v.coords.x, v.coords.y, v.coords.z-1,false,false,false)
-		SetEntityHeading(doghouse[#doghouse], v.coords.w - 90)
-		FreezeEntityPosition(doghouse[#doghouse], true)
-    exports['qb-target']:AddBoxZone("doghouses"..k, v.coords, 1.5, 1.6, { 
-      name = "doghouses"..k, 
-      heading = v.coords.w, 
-      debugPoly = false, 
-      minZ = v.coords.z-1, 
-      maxZ = v.coords.z+1.4, 
-    }, { 
-      options = { 
-        { 
-          event = "qb-k9:client:menu", 
-          icon = 'fa-solid fa-dog', 
-          label = Lang:t("info.k9_gethere"), 
-          job = Config.Authorized, 
-        } 
-      }, 
-      distance = 2.5,
-    })
-  end
 end)
 
----- ** Threads ** ----
-
---[[CreateThread(function()
-  exports['qb-target']:AddBoxZone("1234", vector3(458.95, -1016.99, 28.17), 1.5, 1.6, {
-    name = "1234", 
-    heading = 102.0, 
-    debugPoly = false, 
-    minZ = 25.7, 
-    maxZ = 30.9, 
-  }, {
-    options = { 
-      {
-        type = "client",
-        event = "qb-k9:client:menu", 
-        icon = 'fa-solid fa-dog', 
-        label = Lang:t("info.k9_gethere"), 
-        job = Config.Authorized, 
-      }
-    },
-    distance = 2.5,
-  })
-end)]]--
+CreateThread(function()
+    local propModel = "prop_doghouse_01"
+    exports['qb-target']:AddTargetModel(propModel, {
+	options = {
+	    {
+		event = "qb-k9:client:menu",
+		icon = 'fa-solid fa-dog',
+		label = Lang:t("info.k9_gethere"),
+		job = Config.Authorized,
+	    }
+	},
+	distance = 2.5,
+    })
+end)
 
 ---- ** Functions ** ----
 ---- ** Sit and Lay animations ** ----
